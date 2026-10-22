@@ -49,3 +49,13 @@ Yang saya lakukan: Dipakai, `bunx vitest run` 16/16 hijau
 Prompt: Strategi deploy tanpa WSL (Windows + varlock crash lokal)
 Hasil: Koding di Windows, validasi logic via vitest + tsc, verifikasi integrasi di URL live Dokploy (Linux)
 Yang saya lakukan: Dipakai, tidak install WSL, on-track deadline
+
+## Prompt 11
+Prompt: Debug DB 500 di production (auth + rpc listing)
+Hasil: Container server tidak satu network dengan database, DNS tidak resolve
+Yang saya lakukan: Lapor koordinator dengan runtime diagnosis, koordinator fix network
+
+## Prompt 12
+Prompt: Fix /listings/new login wall redirect
+Hasil: Client-side redirect ke /login kalau no session
+Yang saya lakukan: Dipakai, koordinator verified & accepted
