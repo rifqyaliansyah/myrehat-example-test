@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import ListingForm from "@/components/listing-form";
 import ListingList from "@/components/listing-list";
 
@@ -15,7 +17,12 @@ export default function Home() {
       <div className="grid gap-8">
         <ListingForm />
         <section>
-          <h2 className="mb-4 font-medium">Listings</h2>
+          <div className="mb-4 flex items-center justify-between">
+            <h2 className="font-medium">Listings</h2>
+            <Link href="/listings" className="text-sm underline">
+              View all
+            </Link>
+          </div>
           <ListingList />
         </section>
       </div>
